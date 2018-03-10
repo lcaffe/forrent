@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Correios Fácil</title>
+</head>
+<body>
+<h1>CADSTRO DE PROSPECTO</h1>
+    <form action="cadastrar" method="POST">
+        <input type="hidden" name="cnpj" value="1234567" />
+        <input type="hidden" name="razaoSocial" value="Empresa Teste" />
+        <input type="hidden" name="endereco[0].cep" value="70673105" />
+        <input type="hidden" name="endereco[1].cep" value="70673108" />
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
